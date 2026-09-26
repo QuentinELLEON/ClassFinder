@@ -166,9 +166,9 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.unity.template.ar_mobile
+    Android: fr.polytech.classfinder
     Standalone: com.unity.template.ar-mobile
-    iPhone: com.unity.template.armobile
+    iPhone: fr.polytech.classfinder
   buildNumber:
     Bratwurst: 0
     Standalone: 0
@@ -252,7 +252,7 @@ PlayerSettings:
   iOSManualSigningProvisioningProfileType: 0
   tvOSManualSigningProvisioningProfileType: 0
   VisionOSManualSigningProvisioningProfileType: 0
-  appleEnableAutomaticSigning: 0
+  appleEnableAutomaticSigning: 1
   iOSRequireARKit: 0
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
@@ -573,8 +573,10 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: AR Camera
-  locationUsageDescription: 
+  cameraUsageDescription: "La cam\xE9ra sert \xE0 la r\xE9alit\xE9 augment\xE9e et
+    \xE0 vous localiser dans le b\xE2timent."
+  locationUsageDescription: "La localisation aide \xE0 identifier le b\xE2timent
+    dans lequel vous vous trouvez."
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
   macOSTargetOSVersion: 12.0
@@ -837,13 +839,14 @@ PlayerSettings:
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
+    Standalone: 1
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   il2cppStacktraceInformation: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
-  allowUnsafeCode: 0
+  allowUnsafeCode: 1
   useDeterministicCompilation: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
